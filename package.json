@@ -1,0 +1,26 @@
+{
+  "name": "fchain",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./server.js",
+  "type" : "module",
+  "scripts": {
+    "server": "node api/src/server.js",
+    "app": "parcel client/index.html",
+    "test-server": "jest api/tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.6.2",
+    "apollo-server": "^3.7.0",
+    "graphql": "^16.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "process": "^0.11.10"
+  }
+}
